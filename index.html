@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sathish Kumar Bharathiraja | Business Analyst Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+:root {
+  --primary-color: #5e60ce;
+  --secondary-color: #f0f4ff;
+  --card-bg: #ffffff;
+  --text-color: #222;
+  --header-bg: #240046;
+  --footer-bg: #3c096c;
+  --link-color: #4361ee;
+}
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--secondary-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--header-bg), var(--primary-color));
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: var(--primary-color);
+      border-bottom: 3px solid var(--primary-color);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .projects, .presentations {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .projects, .reports {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .project-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: var(--primary-color);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: var(--footer-bg);
+      color: black;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sathish Kumar Bharathiraja</h1>
+    <p>Business Analyst | Power BI Expert | MBA in Business Analytics</p>
+  </header>
+
+  <section>
+    <section style="display: flex; align-items: flex-start; gap: 30px;">
+  <img src="assets/profile.jpeg" alt="Profile Photo" style="width: 180px; border-radius: 100px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" />
+  <div>
+    <h2>About Me</h2>
+    <p>
+      Analytical and adaptable Business Analyst with 6+ years of experience driving operational excellence through data-driven insights, process improvement, and cross-functional collaboration. Proficient in Power BI, SQL, and Excel, with a passion for data storytelling and strategic business solutions. MBA in Business Analytics (Higher Honors).
+    </p>
+</div>
+  </section>
+
+  <section>
+    <h2>Tools & Technologies</h2>
+    <p>
+      Power BI, Excel, SQL, Tableau, Microsoft Office, Notion
+    </p>
+  </section>
+
+  <section>
+    <h2>Resume</h2>
+    <div class="Resume">
+      <div class="project-card">
+        <p>With 6+ years of experience in operations and data analysis, I specialize in turning business challenges into data-driven solutions. From building impactful dashboards to streamlining processes with automation, my work bridges insight and execution. Click below to explore my resume and discover how I can bring value to your team.</p>
+        <a href="https://docs.google.com/document/d/1NOdVSFYVe4Ng26ht7rqlNBqNuXbJBCgn/edit?usp=sharing&ouid=103046408409808643968&rtpof=true&sd=true" target="_blank">Download My Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Dashboard Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Employee Attrition Dashboard (Part 1)</h3>
+        <p>This Power BI dashboard analyzes employee attrition trends to help organizations understand the key drivers behind workforce turnover and develop data-driven retention strategies. Built as part of a graduate-level analytics capstone project.</p>
+        <a href="https://app.powerbi.com/groups/me/reports/95196a1a-bb83-4446-aaa7-02e69374b1cf/dccbea863d843d668ef0?experience=power-bi" target="_blank">Dashboard 1</a>
+      </div>
+<div class="project-card">
+        <h3>Employee Attrition Dashboard (Part 2)</h3>
+        <p>The key drivers behind workforce turnover were modified at various levels to predict the turnover percentages, and strategies were provided in this dashboard. This forms the predictive and prescriptive analysis on employee attrition.</p>   
+        <a href="https://app.powerbi.com/groups/me/reports/95196a1a-bb83-4446-aaa7-02e69374b1cf/8bb8d13a64a7913f9e4b?experience=power-bi" target="_blank">Dashboard 2</a>
+      </div>
+<div class="project-card">
+        <h3>Global Superstore Sales Analysis</h3>
+        <p>This Power BI dashboard analyzes the sales trend of Global Superstore to help the store understand the key products that contribute to profit and factors that have to be worked on to improve the profit. Built as part of a graduate-level analytics capstone project.</p>
+        <a href="https://app.powerbi.com/groups/me/reports/67b19e6c-8007-4834-b7fe-9751fc34ed31/e5c29f80200101a1912a?experience=power-bi" target="_blank">Dashboard</a>
+      </div>
+      </section>
+<section>
+<h2>Notion Portfolio</h2>
+<div class="Notion Portfolio">
+<div class="project-card">
+        <h3>Complete Portfolio Gallery</h3>
+        <p>Explore my full set of dashboards, analytics, and business case presentations.</p>
+        <a href="https://www.notion.so/Welcome-to-my-Portfolio-204a172051ab80ddb338e76b2feae3bc" target="_blank">Open Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>MBA Presentations</h2>
+    <div class="presentations">
+      <div class="project-card">
+        <h3>Analysis of Amazon Business</h3>
+        <p>As part of my final MBA project, I created this PowerPoint presentation analysing Amazon’s business performance and strategic position. The shared version has been selectively edited to highlight key insights, including market share trends, strategic frameworks like the BCG Matrix and SWOT analysis, and Amazon’s operations and development strategies.</p>
+        <a href="https://docs.google.com/presentation/d/1gG6KTYuLKnOG2spE6LN7tpj_8esXxLkE/edit?usp=sharing" target="_blank">View Presentation</a>
+      </div>
+      <div class="project-card">
+        <h3>Analysis of Salesforce</h3>
+        <p>This presentation is based on the CSR, ethics, and relationship with stakeholders. Also, I provided scoring as a business consultant for the firm and provided recommendations.</p>
+        <a href="https://docs.google.com/presentation/d/1W5V3zdZKq8AKvHMa2jSa_2LmHq5BUFUt/edit?usp=sharing" target="_blank">View Presentation</a>
+      </div>
+      <div class="project-card">
+        <h3>Netflix Economic Analysis</h3>
+        <p>An analysis of the economic performance of Netflix with the details about the demand and supply before and after COVID-19.</p>
+        <a href="https://docs.google.com/presentation/d/13jt6KijVPbpFfyKKR19hae7TLy2RFIX9/edit?usp=sharing" target="_blank">View Presentation</a>
+      </div>
+      <div class="project-card">
+        <h3>Performance Framework Comparison</h3>
+        <p>In this PPT, five performance framework models, such as Balanced Scorecard, Performance Prism, Quantum Performance Management Model, Tableau de Bord, and EFQM Excellence Model, were compared, and the best model was picked to analyze a company. For this analysis, I used the NOISE method along with qualitative and quantitative analysis to come up with a better framework among the five chosen models.</p>
+        <a href="https://docs.google.com/presentation/d/1Z2nHf2Kvu117nUYXrnJKmFuchc58afgj/edit?usp=sharing" target="_blank">View Presentation</a>
+      </div>
+      <div class="project-card">
+        <h3>Performance Management Plan</h3>
+        <p>This is a part of my MBA project in which I analyzed my previous employer's performance and provided suggestions to improve the business in new regions. A strategy map was developed, and a balanced scorecard was generated with KPIs to analyze the performance.</p>
+        <a href="https://docs.google.com/presentation/d/1eT7BuAuyAG2DL-32S9q0r0wSOxdTHlw-/edit?usp=sharing" target="_blank">View Presentation</a>
+      </div>
+      <div class="project-card">
+        <h3>Data-Driven Decision Making</h3>
+        <p>An article on data-driven decision making was chosen, and the article's findings were compared with real-life examples. This presentation helps to understand the importance of data-driven decision-making.</p>
+        <a href="https://docs.google.com/presentation/d/1oM8NdYGPYr7TiY2QaWZWfm8vxGS_iGs2/edit?usp=sharing" target="_blank">View Presentation</a>
+      </div>
+    </div>
+  </section>
+
+<section>
+    <h2>MBA Reports</h2>
+    <div class="reports">
+      <div class="project-card">
+        <h3>Microsoft Financial Analysis</h3>
+        <p>This report includes financial statements, ratio analysis, debt, equity, and capital structure of Microsoft Corporation.</p>
+        <a href="https://drive.google.com/file/d/1g19DIZGK2fOsSX4WEmlOc0XMJAZdfQM8/view?usp=sharing" target="_blank">View Report</a>
+      </div>
+      <div class="project-card">
+        <h3>Salesforce CSR Analysis</h3>
+        <p>As a business consultant, I have created this report on Salesforce's performance on social responsibilities, ethical behaviours, and welfare for the environment.</p>
+        <a href="https://drive.google.com/file/d/1Psio_jC3g2wCs5f6L5x847S7J9d3GyqZ/view?usp=sharing" target="_blank">View Report</a>
+      </div>
+      <div class="project-card">
+        <h3>Employee Attrition Analysis</h3>
+        <p>Employee turnover was analyzed using a star schema, a Power BI dashboard, and a logical regression method to figure out the factors contributing to the turnover ratio, and those details were presented as a report.</p>
+        <a href="https://docs.google.com/document/d/1V_wymQUefJzTwsev68b03-LKdVlRN-ES/edit?usp=sharing&ouid=103046408409808643968&rtpof=true&sd=true" target="_blank">View Report</a>
+      </div>
+<div class="project-card">
+        <h3>Nokia Strategies Analysis</h3>
+        <p>The rise and fall of Nokia was analyzed and reported with strategic tools.</p>
+        <a href="https://docs.google.com/document/d/1Ml2dR4DAFlza9r_0FOW85tgdT7bMRMqs/edit?usp=sharing&ouid=103046408409808643968&rtpof=true&sd=true" target="_blank">View Report</a>
+      </div>
+<div class="project-card">
+        <h3>Performance Framework Analysis</h3>
+        <p>The NOISE method was used to analyze five performance framework models to select the best among the chosen five models.</p>
+        <a href="https://docs.google.com/document/d/1UODdKv25wAeV671IsURsk4hW6qP7bUPS/edit?usp=sharing&ouid=103046408409808643968&rtpof=true&sd=true" target="_blank">View Report</a>
+      </div>
+<div class="project-card">
+        <h3>Business Improvement Plans</h3>
+        <p>Business expansion plans were created for my employer using the balanced scorecard. A strategy map was created to support the balanced scorecard, and the KPIs were listed to achieve the goal of expanding the business to new regions.</p>
+        <a href="https://drive.google.com/file/d/19f7mvxCnKAqAiovcBBVlsC3-1uSJ8tei/view?usp=sharing" target="_blank">View Report</a>
+      </div>
+<div class="project-card">
+        <h3>CIO situation Analysis</h3>
+        <p>A problem statement was provided, and I was advised to provide a report as CIO, which was created after analyzing the situation, and the details are in the report.</p>
+        <a href="https://drive.google.com/file/d/1fdida-ySSCiEqDtD9s9HYqaDVuXs5S3X/view?usp=sharing" target="_blank">View Report</a>
+      </div>
+</section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Lean Six Sigma Yellow Belt</li>
+      <li>SQL for Data Science – Coursera</li>
+      <li>MBA in Business Analytics – Golden Gate University</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sathishkumarbharathiraja@gmail.com">sathishkumarbharathiraja@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sathishkumarbharathiraja" target="_blank">linkedin.com/in/sathishkumarbharathiraja</a></p>
+    <p>GitHub: <a href="https://github.com/SathishKumarBharathiraja" target="_blank">github.com/SathishKumarBharathiraja</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sathish Kumar Bharathiraja. All rights reserved.</p>
+  </footer>
+</body>
+</html>
