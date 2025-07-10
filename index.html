@@ -58,7 +58,16 @@
       padding-bottom: 10px;
       margin-bottom: 20px;
     }
-
+	.projects, .tools {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+	.projects, .experience {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
     .projects, .presentations {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -131,17 +140,156 @@
 
   <section>
     <h2>Tools & Technologies</h2>
-    <p>
-      Power BI, Excel, SQL, Tableau, Microsoft Office, Notion
-    </p>
+	<div class="tools">
+    <div class="project-card">
+        <h3>Data Analytics & Reporting</h3>
+		<table>
+   <tbody>
+    <tr>
+      <td>Power BI</td>
+      <td>Dashboard design, KPI tracking, data visualization</td>
+    </tr>
+    <tr>
+      <td>Microsoft Excel</td>
+      <td>Advanced formulas, PivotTables, Power Query, Macros, VBA</td>
+    </tr>
+    <tr>
+      <td>SQL</td>
+      <td>Data extraction, manipulation, and ad hoc analysis</td>
+    </tr>
+	<tr>
+      <td>Excel VBA</td>
+      <td>Automation of tasks, custom tools, error tracking</td>
+    </tr>
+	<tr>
+      <td>Reports</td>
+      <td>SLA tracking, operational health monitoring (Manual and Automated)</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+	  <div class="project-card">
+        <h3>Process Automation & Workflow Optimization</h3>
+		<table>
+   <tbody>
+    <tr>
+      <td>Excel-based tools</td>
+      <td>Custom trackers, dashboards, logical regression, goal-seek, calculators</td>
+    </tr>
+    <tr>
+      <td>FTP Clients</td>
+      <td>File upload/download handling</td>
+    </tr>
+    <tr>
+      <td>API Integration</td>
+      <td>API setup for data exchange and automation</td>
+    </tr>
+	<tr>
+      <td>Automation Scripts</td>
+      <td>File transfers, report generation</td>
+    </tr>
+	<tr>
+      <td>Lean Six Sigma</td>
+      <td>Process improvement and standardization initiatives</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+	  	  <div class="project-card">
+        <h3>Testing & Quality Assurance</h3>
+		<table>
+   <tbody>
+    <tr>
+      <td>User Acceptance Testing (UAT)</td>
+      <td>Execution and defect resolution</td>
+    </tr>
+    <tr>
+      <td>QA Tools</td>
+      <td>Internal tools for customer forum testing and validation</td>
+    </tr>
+    <tr>
+      <td>Post-Implementation Reviews (PIV)</td>
+      <td>Accuracy and process adherence checks</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+	  <div class="project-card">
+        <h3>Project & Client Management</h3>
+		<table>
+   <tbody>
+    <tr>
+      <td>Outlook/Email Tools</td>
+      <td>Client communication and coordination</td>
+    </tr>
+    <tr>
+      <td>Meeting Platforms</td>
+      <td>Client meetings, daily production discussions (e.g., Zoom, MS Teams, Skype)</td>
+    </tr>
+    <tr>
+      <td>Status Reporting Tools</td>
+      <td>Excel dashboards, summary reports for leadership</td>
+    </tr>
+	<tr>
+      <td>Documentation Tools</td>
+      <td>SOPs, process maps, user guides (MS Word, Visio*)</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
   </section>
-
   <section>
-    <h2>Resume</h2>
-    <div class="Resume">
+    <h2>Work Experience</h2>
+    <div class="experience">
       <div class="project-card">
-        <p>With 6+ years of experience in operations and data analysis, I specialize in turning business challenges into data-driven solutions. From building impactful dashboards to streamlining processes with automation, my work bridges insight and execution. Click below to explore my resume and discover how I can bring value to your team.</p>
-        <a href="https://docs.google.com/document/d/1NOdVSFYVe4Ng26ht7rqlNBqNuXbJBCgn/edit?usp=sharing&ouid=103046408409808643968&rtpof=true&sd=true" target="_blank">View My Resume</a>
+  <h3>Assistant Manager – Business Analysis & Operations</h3>
+  <h4>TNQ Technologies Pvt Ltd, India | Oct 2020 – Jan 2024</h4>
+  <h4>Client: Frontiers (UK)</h4>
+  <ul>
+    <li>Led data automation and reporting projects for a UK client.</li>
+    <li>Built KPI dashboards using Power BI, Excel, and SQL, cutting reporting time by 40%.</li>
+    <li>Automated file processes, boosting efficiency by 30% and saving 20+ hours monthly.</li>
+    <li>Helped set up APIs to improve system integration and data speed.</li>
+    <li>Led QA for a forum tool and improved reporting through Kaizen enhancements.</li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <h3>Senior Executive – Business Process Analyst & Customer Support</h3>
+  <h4>TNQ Technologies Pvt Ltd, India | Mar 2018 – Oct 2020</h4>
+  <h4>Client: Sheridan Journal Services (USA)</h4>
+  <ul>
+    <li>Improved reporting and documentation for a U.S. client.</li>
+    <li>Created Excel dashboards that reduced SLA breaches by 20%.</li>
+    <li>Handled UAT and defect tracking, improving issue resolution by 25%.</li>
+    <li>Wrote SOPs and guides, cutting onboarding time by 30%.</li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <h3>Executive – Operations</h3>
+  <h4>TNQ Technologies Pvt Ltd, India | Jul 2016 – Mar 2018</h4>
+  <h4>Client: Sheridan Journal Services (USA)</h4>
+  <ul>
+    <li>Managed reporting, client coordination, and workflow improvement.</li>
+    <li>Led client meetings and resolved issues, improving satisfaction by 15%.</li>
+    <li>Facilitated daily planning meetings, raising on-time delivery by 20%.</li>
+    <li>Created Excel tools that saved 10+ hours of work weekly.</li>
+    <li>Contributed to Lean Six Sigma efforts, reducing process time by 12%.</li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <h3>Operations Management Trainee</h3>
+  <h4>TNQ Technologies Pvt Ltd, India | Mar 2016 – Jul 2016</h4>
+  <h4>Client: Sheridan Journal Services (USA)</h4>
+  <ul>
+    <li>Assisted with file handling, QA, and team communication.</li>
+    <li>Managed client emails, improving response time by 25%.</li>
+    <li>Handled FTP uploads, ensuring on-time deliveries.</li>
+    <li>Supported quality checks, maintaining 95%+ data accuracy.</li>
+  </ul>
+</div>
       </div>
     </div>
   </section>
